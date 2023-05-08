@@ -1,0 +1,496 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683514824698970, "dur":1219, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514824700200, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683514824700280, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683514824700297, "dur":222, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683514824700542, "dur":500, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514824701042, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975078, "dur":91, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975169, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975205, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975210, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975216, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975219, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975227, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975229, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975236, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975239, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975244, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975247, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975255, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975268, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825975275, "dur":1628, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683514824701048, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824701048, "dur":5094, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824706153, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683514824706161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824707250, "dur":497, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683514824707754, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683514824707844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824707987, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683514824710098, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683514824710200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824710267, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683514824712259, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683514824712351, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824712388, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683514824713359, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683514824713436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824713440, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683514824714619, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683514824714705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824714949, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683514824715805, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683514824715881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824715918, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683514824717095, "dur":7575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683514824724674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824724680, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683514824725712, "dur":82097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683514824807811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824807814, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683514824811400, "dur":12601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824824004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824824010, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824824793, "dur":83290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824908087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824908092, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824912227, "dur":37253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824949485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824949490, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824950288, "dur":34880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824985173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514824985178, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514824988018, "dur":41989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825030011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825030037, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825032410, "dur":28351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825060765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825060771, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825062393, "dur":12002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825074399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825074405, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825075250, "dur":13845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825089098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825089103, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825090516, "dur":15316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825105836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825105842, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825107007, "dur":27301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825134310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825134313, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825135833, "dur":18612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825154449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825154455, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825156371, "dur":20848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825177223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825177229, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825178219, "dur":11685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825189908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825189914, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825190689, "dur":32007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825222699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825222705, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825223512, "dur":113235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825336751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825336756, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825337684, "dur":24519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825362207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825362213, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825364807, "dur":41906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825406717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825406722, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825407899, "dur":140415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825548317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825548323, "dur":8310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825556663, "dur":149003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825705668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825705673, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825706827, "dur":35888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825742718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825742724, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825743783, "dur":125882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825869669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683514825869675, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683514825870617, "dur":104442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824701060, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824701060, "dur":5085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824706153, "dur":39122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1683514824745279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824745671, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1683514824746488, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1683514824746582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824746785, "dur":10099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1683514824756916, "dur":59031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824815951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824815956, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824820299, "dur":43052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824863355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824863361, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824868338, "dur":18242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824886583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824886588, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824887663, "dur":23619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824911286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514824911291, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514824912289, "dur":129771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825042064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825042070, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825044788, "dur":41300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825086099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825086104, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825086963, "dur":25328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825112294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825112300, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825113173, "dur":12236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825125412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825125416, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825126184, "dur":28275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825154461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825154475, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825156140, "dur":16428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825172571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825172577, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825173351, "dur":91219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825264573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825264578, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825265765, "dur":48860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825314629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825314654, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825315498, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825316165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825316169, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825316924, "dur":45732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825362659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825362663, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825363494, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825364081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825364085, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825365262, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825365877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825365882, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825368329, "dur":194429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825562761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825562765, "dur":7208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825570001, "dur":49537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825619543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825619549, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825620390, "dur":154920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825775315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825775320, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683514825776792, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1683514825776917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825777234, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1683514825778212, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683514825778241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825778271, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683514825779307, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683514825779336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825779339, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683514825780540, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683514825780569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825780572, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683514825781394, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1683514825781489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825781491, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1683514825782183, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1683514825782813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825782818, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1683514825783512, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683514825783541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825783544, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683514825784366, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683514825784393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825784396, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683514825785080, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683514825785108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683514825785111, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683514825785872, "dur":189189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824701011, "dur":45, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824701056, "dur":5188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824706244, "dur":11506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683514824717753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824717759, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683514824719412, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683514824719508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824719513, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683514824721079, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1683514824721175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824721179, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1683514824722369, "dur":37013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824759385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824759595, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824761929, "dur":16830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824778891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824778971, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824779687, "dur":40866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824820555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824820560, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824821307, "dur":47754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824869064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824869069, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824870634, "dur":12325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824882963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824882968, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824883859, "dur":70356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824954219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824954224, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824955116, "dur":40273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824995393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514824995398, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514824996334, "dur":17358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825013696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825013702, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825014531, "dur":47978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825062511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825062516, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825063319, "dur":52363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825115686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825115691, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825116547, "dur":17271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825133822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825133827, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825134996, "dur":82000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825217000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825217005, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825217995, "dur":15237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825233235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825233240, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825234345, "dur":15527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825249876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825249881, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825250680, "dur":50146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825300830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825300835, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825301723, "dur":224803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825526531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825526536, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825527823, "dur":34654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825562481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825562487, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825563330, "dur":143390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825706724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825706729, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825709268, "dur":263502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825972773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683514825972779, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683514825975035, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1683514825975039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514824701154, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514824701154, "dur":5043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514824706198, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683514824706316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514824708509, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683514824711010, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683514824711100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514824711407, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683514824713260, "dur":7407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683514824720671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514824720678, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683514824722153, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1683514824722233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514824722237, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1683514824725477, "dur":414143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825139622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825139625, "dur":15426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825155080, "dur":95318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825250456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825250462, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825251244, "dur":100194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825351442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825351448, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825352526, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825353153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825353158, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825354022, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825354751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825354756, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825355545, "dur":24735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825380284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825380289, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825381087, "dur":49485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825430576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825430581, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825431470, "dur":126043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825557516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825557521, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825558893, "dur":186712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825745610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825745615, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825748156, "dur":32199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825780358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825780362, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683514825781124, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683514825781162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825781164, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683514825782291, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683514825782318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825782321, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683514825783469, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683514825783497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825783500, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683514825784377, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683514825784406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825784409, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683514825785251, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683514825785347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683514825785350, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683514825786019, "dur":189039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824701162, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824701162, "dur":5008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824706171, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1683514824706320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824708651, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1683514824711483, "dur":14395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683514824725880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824725885, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683514824726691, "dur":31108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game.exe" }}
+,{ "pid":12345, "tid":5, "ts":1683514824757802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824757806, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game.exe" }}
+,{ "pid":12345, "tid":5, "ts":1683514824758799, "dur":14226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824773029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824773232, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824773908, "dur":32435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824806347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824806353, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824807277, "dur":39675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824846956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824846971, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824848253, "dur":23352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824871609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824871615, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824872441, "dur":65246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824937709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824937714, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824941201, "dur":14723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824955927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514824955932, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514824959431, "dur":73894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825033344, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825033360, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825034951, "dur":35931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825070886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825070891, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825072069, "dur":14026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825086098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825086104, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825088904, "dur":35386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825124294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825124299, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825125272, "dur":14088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825139364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825139370, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825140133, "dur":23329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825163466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825163471, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825164557, "dur":15266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825179826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825179851, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825180666, "dur":10981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825191650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825191656, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825192411, "dur":39129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825231544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825231557, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825232423, "dur":34379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825266805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825266809, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825267616, "dur":62232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825329852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825329857, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825330943, "dur":34554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825365499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825365504, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825366247, "dur":92278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825458529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825458543, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825459459, "dur":78872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825538335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825538341, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825539307, "dur":77901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825617212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825617217, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825618120, "dur":92813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825710938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825710943, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825711923, "dur":194193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825906121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683514825906126, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683514825907037, "dur":68042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824701143, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824701144, "dur":5046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824706191, "dur":8292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683514824714487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824714492, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683514824715236, "dur":7271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683514824722510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824722514, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683514824723190, "dur":120951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824844146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824844227, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824848058, "dur":18106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824866169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824866175, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824866992, "dur":12273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824879269, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824879276, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824880178, "dur":11115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824891297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824891302, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824892081, "dur":35008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824927093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514824927099, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514824927972, "dur":131708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825059684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825059690, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825061074, "dur":14548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825075624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825075629, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825076362, "dur":12876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825089240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825089244, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825090903, "dur":43296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825134202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825134206, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825135518, "dur":15160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825150714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825150722, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825151695, "dur":13014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825164711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825164715, "dur":7585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825172328, "dur":25264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825197596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825197601, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825198370, "dur":22459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825220834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825220841, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825221683, "dur":36074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825257760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825257765, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825258637, "dur":64420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825323061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825323067, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825324144, "dur":19465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825343613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825343619, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825344605, "dur":42780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825387403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825387409, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825388208, "dur":82991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825471202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825471208, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825472090, "dur":67450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825539543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825539547, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825542156, "dur":34191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825576352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825576357, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825577926, "dur":126140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825704070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825704076, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825705434, "dur":93745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The World's Hardester Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825799183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683514825799188, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The World's Hardester Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683514825800301, "dur":174761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683514825978517, "dur":1983, "ph":"X", "name": "ProfilerWriteOutput" }
+,
